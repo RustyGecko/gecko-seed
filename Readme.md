@@ -19,7 +19,7 @@ Add the following to the `Cargo.toml`.
 [target.thumbv7m-none-eabi.dependencies.core]
 git = "https://github.com/RustyGecko/rust-core.git"
 
-[[target.thumbv7m-none-eabi.dependencies.emlib]
+[target.thumbv7m-none-eabi.dependencies.emlib]
 git = "https://github.com/RustyGecko/emlib.git"
 features = ["stk3700"]
 ```
