@@ -32,3 +32,6 @@ $(RELEASE_OUT):
 
 %.axf: %
 	$(OBJCOPY) $< $@
+
+clean:
+	cargo clean
