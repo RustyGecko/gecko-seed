@@ -1,4 +1,4 @@
-LINKARGS = "-mthumb -mcpu=cortex-m3 -Tefm32gg.ld --specs=nosys.specs -lgcc -lc -lnosys -lm -Wl,--start-group -lnosys -lgcc -lc -lm -Wl,--start-group"
+LINKARGS = "-mthumb -mcpu=cortex-m3 -Tefm32gg.ld --specs=nosys.specs -lgcc -lc -lnosys -lm"
 
 OBJCOPY = arm-none-eabi-objcopy
 
